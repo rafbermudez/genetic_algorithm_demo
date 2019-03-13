@@ -1,0 +1,92 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+#controls {
+  float:left;
+  width:98%;
+  padding: 0.5% 1%;
+}
+
+.controls__tree {
+  float: left;
+  padding: 10px 20px;
+  background-color: lightgray;
+  width:100px;
+}
+
+.controls__info {
+  float:left;
+  padding: 10px 20px;
+  background-color: lightgray;
+  width: 580px;
+  text-align: right;
+  margin-left: 0.5%;
+}
+
+#world {
+  margin: 0 1%;
+  text-align: center;
+  background-color: #A5F5FC;
+  height: 460px;
+  float:left;
+  width:98%;
+}
+
+#tree-container {
+  width:100px;
+  height: 500px;
+  float:left;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#best-specimen-container {
+  float: left;
+  padding-right: 70px;
+  min-width: 100px;
+}
+
+#population-container {
+  width:460px; 
+  float:left;
+}
+
+#land {
+  width:100%;
+  background-color: green;
+  height: 40px;
+  color: white; 
+  font-size: 1.5em;
+  padding-top: 10px;
+  font-weight: 400;
+  float:left;
+}
+
+.land__best {
+  padding: 0 160px; 
+}
+
+.land__population {
+  padding: 0 80px;
+}
+
+.giraffe{
+  margin-left: 10px;
+  float:left;
+}
+
+.giraffe__head{
+  background-image: url("assets/giraffe-head.png");
+}
+
+.giraffe__body{
+  background-image: url("assets/giraffe-body.png");
+}
+
